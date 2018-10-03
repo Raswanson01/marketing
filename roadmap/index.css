@@ -30,7 +30,7 @@
   float: left;
   margin: 1ex;
   padding: 1em;
-  background: rgba(40, 40, 40, .5);
+  background: #A50034;
   position: relative; /* So the absolute positioned children work */
 }
 
