@@ -1,21 +1,29 @@
 
+
 /*********** For the Timeline on the left *********/
 #timeline {
   float: left;
   width: 10em;
-  background: green;
+  background-color: #222222;
   margin: 15em 1ex;
   padding-top: 15em;
 }
 
+.stuff {
+  font-family: Montserrat;
+}
+
 .month {
+  font-family: Dosis;
+  color: white;
   padding-bottom: 15em;
   width: 1100%;
-  border-top: .1em dashed green;
+  border-top: .1em dashed #222222;
   z-index: 1; /* Why doesn't this make the line over the green part? */
 }
 
 /********** For the columns ***********/
+
 
 .column {
   height: 130em;
@@ -62,3 +70,4 @@
 .milestone {
   position: absolute;
 }
+
